@@ -4,7 +4,7 @@ import ProjectComponent from './ProjectComponent';
 
 const AllProjects = () => {
   const allProjects = useSelector((state) => state.allProjects.projects);
-  console.log(allProjects);
+  //console.log(allProjects);
 
   const renderProjects = allProjects.map((project) => {
     const { id, title, description, imageURL } = project;
